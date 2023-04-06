@@ -28,6 +28,8 @@ module.exports = {
       fontFamily:{
         dosis:["Dosis","sans-serif"],
         dancing:["Dancing Script", "cursive"],
+        open:["Open Sans" , "sans-serif"],
+        poppins:["Poppins","sans-serif"]
       }
     },
   },

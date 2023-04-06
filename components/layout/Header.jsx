@@ -7,7 +7,7 @@ import Search from '../ui/Search'
 const Header = () => {
     const [isSearchModal, setIsSearchModal] = useState(false)
   return (
-   <div className="h-[5.5rem] bg-secondary font-dosis">
+   <div className="h-[5.5rem] z-50 relative bg-secondary font-dosis">
     <div className="container mx-auto text-black flex justify-between items-center h-full">
         <Logo/>
       <nav>

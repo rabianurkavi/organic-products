@@ -1,8 +1,12 @@
 import React from 'react'
+import Carousel from '@/components/ui/Carousel';
+
 
 export const Index = () => {
   return (
-    <div></div>
+    <div className='relative'>
+      <Carousel />
+    </div>
   )
 }
 
