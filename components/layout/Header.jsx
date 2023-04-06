@@ -10,8 +10,9 @@ const Header = () => {
    <div className="h-[5.5rem] z-50 relative bg-secondary font-dosis">
     <div className="container mx-auto text-black flex justify-between items-center h-full">
         <Logo/>
-      <nav>
-       <ul className='flex gap-x-2 '>
+      <nav className="sm:static absolute top-0 left-0 sm:w-auto sm:h-auto w-full h-screen
+         sm:text-black text-black sm:bg-transparent bg-white sm:flex">
+       <ul className='flex gap-x-2 sm:flex-row flex-col items-center '>
         <li className="px-[5px] py-[12px] uppercase hover:text-primary cursor-pointer">
             <a href="">Ana Sayfa</a>
         </li>
