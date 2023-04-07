@@ -55,7 +55,7 @@ const Carousel = () => {
           <p className='text-sm sm:w-1/3 text-center'>Ürünlerimiz tamamaen el yapımıdır. Herhangi bir katkı maddesi yoktur. Güvenle çocuklarınıza,
           hastalarınıza yedirebilirsiniz. Siz de bu ürünleri kaçırmayın hadi envanterimize göz atın!
           </p>
-         <button className='btn-primary'>ALIŞVERİŞE BAŞLA</button>
+         <button className='btn-primary cursor-pointer hover:bg-gray-900 '>ALIŞVERİŞE BAŞLA</button>
         </div>
        </div>
        <div>
@@ -64,7 +64,7 @@ const Carousel = () => {
           <p className='text-sm sm:w-1/3 text-center '>Ürünlerimiz tamamaen el yapımıdır. Herhangi bir katkı maddesi yoktur. Güvenle çocuklarınıza,
           hastalarınıza yedirebilirsiniz. Siz de bu ürünleri kaçırmayın hadi envanterimize göz atın!
           </p>
-         <button className='btn-primary'>ALIŞVERİŞE BAŞLA</button>
+          <button className='btn-primary cursor-pointer hover:bg-gray-900 '>ALIŞVERİŞE BAŞLA</button>
         </div>
        </div>
        <div>
@@ -73,7 +73,7 @@ const Carousel = () => {
           <p className='text-sm sm:w-1/3 text-center'>Ürünlerimiz tamamaen el yapımıdır. Herhangi bir katkı maddesi yoktur. Güvenle çocuklarınıza,
           hastalarınıza yedirebilirsiniz. Siz de bu ürünleri kaçırmayın hadi envanterimize göz atın!
           </p>
-         <button className='btn-primary'>ALIŞVERİŞE BAŞLA</button>
+          <button className='btn-primary cursor-pointer hover:bg-gray-900 '>ALIŞVERİŞE BAŞLA</button>
         </div>
        </div>
       </Slider>
