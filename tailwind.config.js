@@ -23,6 +23,7 @@ module.exports = {
       colors:{
         primary:"#B0B435",
         secondary:"#f5f5f5",
+        backgroundwhite:"#666666",
         green:"#008e34"
       },
       fontFamily:{

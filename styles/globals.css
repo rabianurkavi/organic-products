@@ -40,6 +40,12 @@ body {
   opacity: 0.9;
   transition: opacity 0.3s ease-in-out;
 }
+.absolute.flex {
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
 
 
 
