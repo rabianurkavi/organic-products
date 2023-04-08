@@ -27,6 +27,9 @@ body {
 .overlay {
   
 }
+.btn-black{
+  @apply text-white px-[30px] py-[8px]  bg-black cursor-pointer hover:opacity-80 transition-all;
+}
 
 .btn-primary:hover .btn-primary{
   content: "";
