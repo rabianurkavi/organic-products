@@ -24,7 +24,7 @@ const CampaignsItem2 = ()=>{
 }
 const Campaigns = () => {
   return (
-    <div className='mt-8 flex bg-slate-100 py-20 justify-center'>
+    <div className='mt-8 flex bg-[#f5f5f5] py-20 justify-center'>
         <CampaignsItem />
         <CampaignsItem2 />
     </div>

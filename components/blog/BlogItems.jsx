@@ -13,7 +13,7 @@ const BlogItems1 = () =>{
             </div>
             <div className="p-[25px] text-black py-16">
               <h4 className="text-[15px] font-dosis font-bold">Sebzelerin faydaları</h4>
-              <p className="text-[13px] font-dosis">Bitkilerin her türlü yenebilen kısmı sebze ve meyve grubu altında toplanır. Sebze ve meyveler; mineraller ve vitaminler bakımından zengindirler. Folik asit, A vitaminin ön öğesi olan beta-karoten, E, C, B2 vitamini, kalsiyum, potasyum, demir, magnezyum, posa ve diğer antioksidan özelliğe sahip bileşikler yönünden de zengindirler.</p>
+              <p className="mt-2 text-[13px] text-[#666666] font-dosis">Bitkilerin her türlü yenebilen kısmı sebze ve meyve grubu altında toplanır. Sebze ve meyveler; mineraller ve vitaminler bakımından zengindirler. Folik asit, A vitaminin ön öğesi olan beta-karoten, E, C, B2 vitamini, kalsiyum, potasyum, demir, magnezyum, posa ve diğer antioksidan özelliğe sahip bileşikler yönünden de zengindirler.</p>
               <div className="flex items-center mt-4 gap-x-2">
                <button className='btn-black flex items-center gap-2 font-sans font-semibold hover:bg-primary'><BsFillSuitHeartFill/>
                 </button>
@@ -37,7 +37,7 @@ const BlogItems2 = () =>{
             </div>
             <div className="p-[25px] text-black py-16">
               <h4 className="text-[15px] font-dosis font-bold">Sağlıklı beslenmenin yolları</h4>
-              <p className="text-[13px] font-dosis">Yaklaşmakta olan yaz günleri pek çok kişiyi “kilo verme” düşüncesine itiyor. Etiler Memorial Polikliniği İç Hastalıkları Bölümü Uzmanları, kilo verirken yapılan hatalardan uzaklaşmak için dengeli ve sağlıklı beslenmenin bir yaşam biçimi olarak benimsenmesinin doğru olacağını belirterek konuyla ilgili ayrıntılı bilgi verdi.</p>
+              <p className="mt-2 text-[13px] text-[#666666] font-dosis">Yaklaşmakta olan yaz günleri pek çok kişiyi “kilo verme” düşüncesine itiyor. Etiler Memorial Polikliniği İç Hastalıkları Bölümü Uzmanları, kilo verirken yapılan hatalardan uzaklaşmak için dengeli ve sağlıklı beslenmenin bir yaşam biçimi olarak benimsenmesinin doğru olacağını belirterek konuyla ilgili ayrıntılı bilgi verdi.</p>
               <div className="flex items-center mt-4 gap-x-2">
                <button className='btn-black flex items-center gap-2 font-sans font-semibold hover:bg-primary'><BsFillSuitHeartFill/>
                 </button>
@@ -61,7 +61,7 @@ const BlogItems3 = () =>{
             </div>
             <div className="p-[25px] text-black py-16">
               <h4 className="text-[15px] font-dosis font-bold">A Vitamini Eksikliği</h4>
-              <p className="text-[13px] font-dosis">Vücutta A vitamininin eksik olması durumunda çeşitli göz ve görme sorunları ortaya çıkabilir. Bu sorunlar arasında düzelebilir gece körlüğü ve geri dönüşü olmayan kornea hasarı olan kseroftalmi bulunur. A vitamini eksikliği aynı zamanda hiperkeratoza veya kuru, pullu cilde yol açabilir.</p>
+              <p className="mt-2 text-[13px] text-[#666666] font-dosis">Vücutta A vitamininin eksik olması durumunda çeşitli göz ve görme sorunları ortaya çıkabilir. Bu sorunlar arasında düzelebilir gece körlüğü ve geri dönüşü olmayan kornea hasarı olan kseroftalmi bulunur. A vitamini eksikliği aynı zamanda hiperkeratoza veya kuru, pullu cilde yol açabilir.</p>
               <div className="flex items-center mt-4 gap-x-2 py-5">
                <button className='btn-black flex items-center gap-2 font-sans font-semibold hover:bg-primary'><BsFillSuitHeartFill/>
                 </button>
