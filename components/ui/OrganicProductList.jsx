@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Title from "./Title"
 const OrganicProduct=()=>{
     return(
         <div className="">
@@ -7,7 +8,7 @@ const OrganicProduct=()=>{
                       <Image src="/images/oil.jpg" className="hover:scale-105 transition-all" alt="" layout="fill" />    
                 </div>
                 <div className="">
-                <button className="btn-primary justify-center w-full h-full flex items-center hover:bg-black font-dosis font-bold">Ürüne Git </button>
+                <button className="btn-primary justify-center w-full h-full flex items-center hover:bg-black font-dosis font-bold">Zeytin Yağı </button>
                 </div>
             </div>
         </div>
@@ -21,7 +22,7 @@ const OrganicProduct2=()=>{
                       <Image src="/images/olive.jpg" className="hover:scale-105 transition-all" alt="" layout="fill" />    
                 </div>
                 <div className="">
-                <button className="btn-primary justify-center w-full h-full flex items-center hover:bg-black font-dosis font-bold">Ürüne Git </button>
+                <button className="btn-primary justify-center w-full h-full flex items-center hover:bg-black font-dosis font-bold">Zeytin </button>
                 </div>
             </div>
         </div>
@@ -35,7 +36,7 @@ const OrganicProduct3=()=>{
                       <Image src="/images/paste.jpg" className="hover:scale-105 transition-all" alt="" layout="fill" />    
                 </div>
                 <div className="">
-                <button className="btn-primary justify-center w-full h-full flex items-center hover:bg-black font-dosis font-bold">Ürüne Git </button>
+                <button className="btn-primary justify-center w-full h-full flex items-center hover:bg-black font-dosis font-bold">Salça </button>
                 </div>
             </div>
         </div>

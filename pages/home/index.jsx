@@ -3,6 +3,7 @@ import Carousel from '@/components/ui/Carousel';
 import OrganicProductList from '@/components/ui/OrganicProductList';
 import Campaigns from '@/components/ui/Campaigns';
 import MenuWrapper from '@/components/product/MenuWrapper';
+import Blog from '@/components/blog/Blog';
 
 
 export const Index = () => {
@@ -12,6 +13,7 @@ export const Index = () => {
       <OrganicProductList />
       <Campaigns />
       <MenuWrapper />
+      <Blog />
     </div>
   )
 }
