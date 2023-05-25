@@ -2,68 +2,71 @@ import React from 'react'
 import Image from 'next/image'
 import Slider from "react-slick";
 import Title from '../ui/Title';
+import {BsFillTelephoneFill,BsPinterest} from "react-icons/bs"
+import{AiFillInstagram,AiFillTwitterSquare,AiFillFacebook,AiFillLinkedin,AiFillMail} from "react-icons/ai"
 
 const Footer = () => {
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        //ilk çıkan yön tuşlarını devre dışı bırakma
-        arrows:false,
-        autoplay:true,
-        autoplayspeed:3500,
-        appenDots: (dots) =>{
-          <div>
-            <ul style={{marginTop: "10px"}}>{dots}</ul>
-          </div>
-        },
-        //yön tuşları
-        customPaging: (i) =>(
-          <div className='w-3 h-3 border bg-white rounded-full mt-10'></div>
-        )
-    }
+   
   return (
     
-    <div className=''>
+    <div className='bg-black '>
+      <div className='container mx-auto pt-16 pb-6' >
         {/* //carousel */}
-     <div>
-        <div className='absolute top-0 left-0 w-full h-full '>
-        <div className='relative h-full w-full '>
-        <Image src="/images/hero-bg.jpg" alt='' layout='fill' objectFit='cover' />
-         </div>
-        </div>
-        <Slider {...settings}>
-         <div >
-           <div className='mt-48  text-white flex flex-col items-start gap-y-10'>
-             <Title addClass="text-6xl"> Bambur Restorant</Title>
-               <p className='text-sm sm:w-1/3'>
-                Jastilier® eti, büyük boy susamlı sandviç ekmeği, salatalık turşusu, ketçap, mayonez, doğranmış marul,
-                domates ve soğandan oluşan bir Burger King® klasiği. Enfes patates kızartması ve içeceğiyle birlikte 
-                Whopper® Menü keyfini istediğin gibi yaşa!
-               </p>
-               <button className='btn-primary'>Şimdi Sipariş Ver</button>
-           </div>     
-          </div>
-          <div>
-           <div className='relative  text-white top-48 flex flex-col items-start gap-y-10'>
-             <Title addClass="text-6xl"> Bambur Restorant</Title>
-               <p className='text-sm sm:w-1/3'>
-                Jastilier® eti, büyük boy susamlı sandviç ekmeği, salatalık turşusu, ketçap, mayonez, doğranmış marul,
-                domates ve soğandan oluşan bir Burger King® klasiği. Enfes patates kızartması ve içeceğiyle birlikte 
-                Whopper® Menü keyfini istediğin gibi yaşa!
-               </p>
-               <button className='btn-primary'>Şimdi Sipariş Ver</button>
-           </div>     
-          </div>
-        </Slider>
-
-      </div>
-        {/* info1 */}
         <div></div>
+        {/* info1 */}
+        <div className='flex justify-between'>
+          {/* Açık Saatler */}
+          <div className='w-1/3 text-white text-[12px]'>
+            <Title addClass="text-[15px] text-white ">Çalışma Saatlerimiz</Title>
+            <hr className="border-yellow-200 w-60 py-2"></hr>
+            <p>Pazartesi - Cuma: 08:00 - 17:00</p>
+            <p>Cumartesi: 10:00 - 20:00</p>
+            <p>Pazar: Kapalı</p>
+          </div>
+          
+          
+          {/* Abone Olma */}
+          <div className='w-1/3'>
+            <label className='relative block cursor-text w-full'>
+            <Title addClass="text-[15px] text-white ">Haber Bülteni</Title>
+            <hr className="border-yellow-200 w-60 py-2"></hr>
+              <input className='h-8 w-80 border outline-none px-4 peer text-sm border-primary mb-1' placeholder='Emaili girin' />
+              <div className="flex items-center gap-x-2 ">
+               <button className='btn-primary  flex items-center font-sans font-semibold hover:bg-yellow-500'><AiFillMail/>
+                </button>
+                </div>           
+            </label>
+          </div>
+
+          {/* Sosyal Medya */}
+          <div className='w-1/3'>
+          <Title addClass="text-[15px] text-white ">Sosyal Medya</Title>
+          <hr className="border-yellow-200 w-60 py-2"></hr>
+             <div className='flex items-center gap-x-2 '>
+                        <a href='' className='w-8 h-8 grid place-content-center bg-primary text-secondary rounded-full'>
+                        <AiFillInstagram></AiFillInstagram>
+                        </a>
+                        
+                        <a href='' className='w-8 h-8 grid place-content-center bg-primary text-secondary rounded-full'>
+                        <AiFillTwitterSquare></AiFillTwitterSquare>
+                        </a>
+                        <a href='' className='w-8 h-8 grid place-content-center bg-primary text-secondary rounded-full'>
+                        <AiFillFacebook></AiFillFacebook>
+                        </a>
+                        <a href='' className='w-8 h-8 grid place-content-center bg-primary text-secondary rounded-full'>
+                        <AiFillLinkedin></AiFillLinkedin>
+                        </a>
+                        <a href='' className='w-8 h-8 grid place-content-center bg-primary text-secondary rounded-full'>
+                        <BsPinterest></BsPinterest>
+                        </a>
+                     </div>
+                  
+               </div>
+        </div>
+        <hr className='my-3'></hr>
         {/* info2 */}
         <div></div>
+      </div>
     </div>
    
 
