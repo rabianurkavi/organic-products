@@ -50,9 +50,9 @@ const Carousel = () => {
       </div>
       <Slider {...settings} onClick={()=>setIsImageModal(true)}>
       <div>
-        <div className='mt-48 text-white flex flex-col justify-center items-center gap-y-10'  >
+        <div className='mt-48 text-white flex flex-col justify-center items-center gap-y-10 '  >
           <Title addClass="text-5xl text-center font-poppins ">ORGANİK PAZARA <br/> HOŞGELDİN </Title>
-          <p className='text-sm sm:w-1/3 text-center'>Ürünlerimiz tamamaen el yapımıdır. Herhangi bir katkı maddesi yoktur. Güvenle çocuklarınıza,
+          <p className='text-sm sm:w-1/3 text-center font-serif'>Ürünlerimiz tamamaen el yapımıdır. Herhangi bir katkı maddesi yoktur. Güvenle çocuklarınıza,
           hastalarınıza yedirebilirsiniz. Siz de bu ürünleri kaçırmayın hadi envanterimize göz atın!
           </p>
          <button className='btn-primary cursor-pointer hover:bg-gray-900 '>ALIŞVERİŞE BAŞLA</button>
